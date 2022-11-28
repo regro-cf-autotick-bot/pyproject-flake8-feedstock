@@ -1,5 +1,5 @@
 {% set name = "pyproject-flake8" %}
-{% set version = "5.0.4.post1" %}
+{% set version = "6.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyproject-flake8-{{ version }}.tar.gz
-  sha256: c2dfdf1064f47efbb2e4faf1a32b0b6a6ea67dc4d1debb98d862b0cdee377941
+  sha256: dcaf776546ab520309df86fe32a0e375fc426ca02bdb0f580d48dc6d9b74a7ec
 
 build:
   entry_points:
@@ -20,11 +20,11 @@ requirements:
   host:
     - flit-core >=3.2,<4
     - pip
-    - python >=3.6
+    - python >=3.8.1
   run:
-    - python >=3.6
+    - python >=3.8.1
     - tomli
-    - flake8 >=5.0.4
+    - flake8 ==6.0.0
 
 test:
   imports:
