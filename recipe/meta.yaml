@@ -1,5 +1,5 @@
 {% set name = "pyproject-flake8" %}
-{% set version = "6.0.0" %}
+{% set version = "6.0.0.post1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyproject-flake8-{{ version }}.tar.gz
-  sha256: dcaf776546ab520309df86fe32a0e375fc426ca02bdb0f580d48dc6d9b74a7ec
+  sha256: d43421caca0ef8a672874405fe63c722b0333e3c22c41648c6df60f21bab2b6b
 
 build:
   entry_points:
