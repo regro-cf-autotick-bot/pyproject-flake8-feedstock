@@ -1,11 +1,11 @@
-About pyproject-flake8
-======================
+About pyproject-flake8-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyproject-flake8-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/csachs/pyproject-flake8
 
 Package license: Unlicense
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyproject-flake8-feedstock/blob/main/LICENSE.txt)
 
 Summary: Monkey patching wrapper to connect flake8 with pyproject.toml configuration
 
